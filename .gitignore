@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DVC cache and temp
+.dvc/cache/
+.dvc/tmp/
+
+# Local environment
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.key
+*.pem
+.env
+
+# Optional: local logs
+*.log
+
+# If you do not want to track generated outputs in Git
+# data/
+# models/
+# metrics/
+# reports/
